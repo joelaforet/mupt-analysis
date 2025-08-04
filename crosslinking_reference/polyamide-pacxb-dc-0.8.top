@@ -1,0 +1,20 @@
+;Include forcefield parameters
+
+#include  "/scratch.global/sbinkash/polyamide_ion_transport/simulations/polyamide.ff/forcefield.itp"
+
+#include  "/scratch.global/sbinkash/polyamide_ion_transport/simulations/polyamide-pacxb/pacxb-hydrolyzed.itp"
+
+#include  "/scratch.global/sbinkash/polyamide_ion_transport/simulations/polyamide.ff/tip4p-2005.itp"
+
+#include  "/scratch.global/sbinkash/polyamide_ion_transport/simulations/polyamide.ff/madrid-2019.itp"
+
+
+
+
+[ system ]
+; Name
+Swollen polyamide 
+ 
+[ molecules ]
+; Compound               #mols
+Polyamide               1
